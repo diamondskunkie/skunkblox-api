@@ -13,6 +13,13 @@ to = "/.netlify/functions/catalog-api"
 status = 200
 force = true
 
+[[redirects]]
+from = "/group"
+to = "/.netlify/functions/group"
+status = 200
+force = true
+
+[[redirects]]
 from = "/group/*"
 to = "/.netlify/functions/group/:splat"
 status = 200
